@@ -6,6 +6,7 @@
     --blanco: #FFFFFF;
     --negro: #000000;
     --gris: #e1e1e1;
+    --amarillo: #FFFF00;
 }
 
 html{
@@ -172,6 +173,14 @@ img{
     text-transform: uppercase;
     font-weight: bold;
     margin-bottom: 2rem;
+}
+
+.boton:hover{
+    background-color: var(--amarillo);
+    color: var(--negro);
+    transition: color .8s ease;
+    transition: background-color .8s ease;
+
 }
 
 @media (min-width: 768px) {
