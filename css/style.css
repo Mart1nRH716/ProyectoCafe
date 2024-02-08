@@ -132,6 +132,11 @@ img{
     font-size: 1.8rem;
     color: var(--blanco);
 }
+.navegacion__enlace:hover{
+    
+    color: var(--primario);
+    transition: color .5s ease;
+}
 
 
 @media (min-width: 768px) {
@@ -217,4 +222,18 @@ img{
     background-color: var(--negro);
     padding-bottom: 3rem;
     margin-top: 4rem;
+}
+
+/* doBRE NOSOTROS */
+
+@media (min-width: 768px) {
+    .sobre-nosotros{
+        display: flex;
+        gap: 2rem;
+    }
+    .sobre-nosotros__imagen,
+    .sobre-nosotros__texto{
+        flex-basis: 50%;
+    }
+      
 }
