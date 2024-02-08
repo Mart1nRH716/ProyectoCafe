@@ -173,6 +173,7 @@ img{
     text-transform: uppercase;
     font-weight: bold;
     margin-bottom: 2rem;
+    border: none;
 }
 
 .boton:hover{
@@ -180,6 +181,7 @@ img{
     color: var(--negro);
     transition: color .8s ease;
     transition: background-color .8s ease;
+    cursor: pointer;
 
 }
 
@@ -272,4 +274,43 @@ img{
 /* Blog */
 .blog__texto {
     text-align: justify;
+}
+
+/* Contacto */
+.contacto-bg{
+    background-image: url(../img/contacto.jpg);
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.formulario{
+    background-color: var(--blanco);
+    margin: -5rem auto 0 auto;
+    width: 95%;
+    padding: 5rem;
+}
+
+.campo{
+
+    display: flex;
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
+
+.campo__label{
+
+    flex: 0 0 9rem;
+    text-align: right;
+}
+
+
+.campo__field{
+    /* Esto va ser que los campos donde se introducen las cosas se extienda hsat el final por el flex 0 0 9rem */
+    flex: 1;
+    border: 1px solid var(--gris);
+}
+.campo__field--textarea{
+
+    height: 20rem;
 }
