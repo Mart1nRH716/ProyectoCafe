@@ -76,9 +76,15 @@ img{
     text-align: center;
 }
 
+.webp .header{
+    background-image: url(../img/banner.webp);
+}
+.no-webp .hedaer{
+    background-image: url(../img/banner.jpg);
+}
 /* Header */
 .header{
-    background-image: url(../img/banner.jpg);
+    
     height: 60rem;
     background-size: cover;
     background-repeat: no-repeat;
